@@ -24,10 +24,6 @@
     align-self: center;
     border: none;
     background-color: transparent;
-    background-image: url("images/logo.png");
-    background-position: center;
-    background-size: 75%;
-    background-repeat: no-repeat;
     box-shadow: inset 0px 0px 0px 0px black;
     border-radius: 100%;
     width: 50vh;
@@ -36,6 +32,22 @@
 }
 .home-content-1-button:active{
     box-shadow: inset 10px 10px 50px 5px black;
+}
+.home-content-1-button-a{
+    position: relative;
+    display: flex;
+    background-image: url("images/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translateY(0vh);
+    right: 2%;
+    background-size: 75%;
+    width: 50vh;
+    height: 50vh;
+    transition: 0.8s;
+}
+.home-content-1-button-a:active{
+    transform: translateY(1vh);
 }
 .home-content-2{
     background-color: black;
